@@ -1,0 +1,28 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: linear-gradient(120deg, #635bdb, #8b5cf6);
+  box-shadow: 0 4px 15px rgba(99, 91, 219, 0.2);
+}
+
+nav h2 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+nav p {
+  color: #ede9fe;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 20px;
+  }
+}

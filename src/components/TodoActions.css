@@ -1,0 +1,31 @@
+
+.todo-actions {
+  max-width: 700px;
+  margin: 20px auto 30px;
+  text-align: right;
+}
+
+.todo-actions button {
+  padding: 11px 18px;
+  background: #fff1f1;
+  color: #e05252;
+  border: 1px solid #ffdada;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.todo-actions button:hover:not(:disabled) {
+  background: #e05252;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.todo-actions button:disabled {
+  background: #f1f2f5;
+  color: #a0a5b5;
+  border-color: #e5e7eb;
+  cursor: not-allowed;
+}

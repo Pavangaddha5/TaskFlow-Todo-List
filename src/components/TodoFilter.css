@@ -1,0 +1,40 @@
+
+.todo-filter {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 30px auto;
+}
+
+.todo-filter button {
+  padding: 11px 25px;
+  border: 2px solid transparent;
+  background: #eeeaff;
+  color: #635bdb;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.todo-filter button:hover {
+  transform: translateY(-3px);
+  background: #ded9ff;
+}
+
+.todo-filter button.active {
+  background: linear-gradient(120deg, #635bdb, #8b5cf6);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(99, 91, 219, 0.25);
+}
+
+@media (max-width: 600px) {
+  .todo-filter {
+    gap: 8px;
+  }
+
+  .todo-filter button {
+    padding: 10px 16px;
+  }
+}

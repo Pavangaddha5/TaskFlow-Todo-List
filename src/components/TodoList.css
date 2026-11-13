@@ -1,0 +1,22 @@
+
+.todo-list {
+  max-width: 700px;
+  margin: 35px auto;
+}
+
+.todo-list h2 {
+  margin-bottom: 22px;
+  color: #252b3b;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 35px 20px;
+  color: #9298aa;
+  background: #ffffff;
+  border: 1px dashed #d6d9e5;
+  border-radius: 12px;
+  font-size: 14px;
+}
